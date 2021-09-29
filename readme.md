@@ -3,7 +3,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
+[![StyleCI](https://github.styleci.io/repos/411778492/shield?branch=master)](https://github.styleci.io/repos/411778492?branch=master)
 
 This package is a blade wrapper arrount the [github/time-elements](https://github.com/github/time-elements) package. This package provides blade components and a blade directive to easily utilize the time-elements in your laravel project. Take a look at [contributing.md](contributing.md) to see a to do list.
 
