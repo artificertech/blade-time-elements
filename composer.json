@@ -5,12 +5,14 @@
     "authors": [
         {
             "name": "Cole Shirley",
-            "email": "cole.shirley@artificertech.com",
-            "homepage": "author homepage"
+            "email": "cole.shirley@artificertech.com"
         }
     ],
     "homepage": "https://github.com/artificertech/blade-time-elements",
-    "keywords": ["Laravel", "BladeTimeElements"],
+    "keywords": [
+        "Laravel",
+        "BladeTimeElements"
+    ],
     "require": {
         "illuminate/support": "~7|~8"
     },
