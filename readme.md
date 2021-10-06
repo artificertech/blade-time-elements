@@ -50,6 +50,11 @@ each component also has a nullable default slot.
 <x-time-ago datetime="{{ $item->created_at }}" class="test-class" format="micro"> backup text </x-time-ago>
 ```
 
+## Livewire
+
+If you use time-elements inside of a livewire context you may run into issues where the time elements do not work after livewire re-renders the page. To solve this each time element includes the wire:replace functionality (made possible by the https://github.com/archtechx/wire-replace package)
+
+Follow the instructions here to install that package via npm or the CDN
 
 ## Change log
 

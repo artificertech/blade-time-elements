@@ -4,4 +4,4 @@ $datetime = $datetime instanceof \Carbon\Carbon ? $datetime->toIso8601ZuluString
 @endphp
 
 
-<time-until datetime="{{ $datetime }}" {{ $attributes }}>{{ $slot ?? '' }}</time-until>
+<time-until datetime="{{ $datetime }}" {{ $attributes }} wire:replace.self>{{ $slot }}</time-until>
